@@ -46,7 +46,7 @@ async def on_message(message):
             player = await client.fetch_user(member.id)
             player_hand = hand()
 
-            ## Some users don't accept users from strangers. We need to handle that case. 
+            ## Some users don't accept messages from strangers. We need to handle that case. 
             try: 
                 await player.send('Here\'s your hand!')
                 await player.send('**White:** ')
