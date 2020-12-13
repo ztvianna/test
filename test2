@@ -17,5 +17,5 @@ async def nine_nine(ctx):
     pink = (white + red)
 
     await ctx.send("Your white cards are: " + str(white) + "\n" + "\n" + "\n" + "Your red cards are: " + str(red))
-
+ 
 client.run('token')
